@@ -2,10 +2,9 @@
 
 ## 🚀 Live Deployment
 
-This project is deployed on Streamlit Cloud.
 
-👉 **Try it here:**  
-https://parking-occupancy-classification-kjlrgkzghpvhuctiqhwecpe.streamlit.app
+👉 **Try the App Here:**  
+https://parking-occupancy-classification-kjlrkgzhpvhuctiqhwecpe.streamlit.app/
 
 A YOLOv8-based parking slot occupancy classifier with a clean Streamlit UI.
 
