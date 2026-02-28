@@ -1,84 +1,97 @@
 🚗 Parking Occupancy Classification System
-<p align="center"> <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/Streamlit-Live%20App-red?style=for-the-badge&logo=streamlit"> <img src="https://img.shields.io/badge/Python-3.10-yellow?style=for-the-badge&logo=python"> </p> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=AI+Powered+Parking+Detection;YOLOv8+Based+Classifier;Real-Time+Slot+Occupancy+Prediction" /> </p>
-🚀 Live Deployment
+<p align="center"> <img src="https://img.shields.io/badge/AI-Powered-0A192F?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-2563EB?style=for-the-badge"/> <img src="https://img.shields.io/badge/Streamlit-Live%20Deployment-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3.10-F7DF1E?style=for-the-badge&logo=python&logoColor=black"/> </p> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&duration=2800&pause=800&color=0EA5E9&center=true&vCenter=true&width=700&lines=Smart+Parking+Detection+System;Deep+Learning+Powered+Slot+Classification;Real-Time+Occupancy+Prediction+App" /> </p>
+🌍 Live Application
+<p align="center"> <a href="https://parking-occupancy-classification-kjlrkgzhpvhuctiqhwecpe.streamlit.app/"> <img src="https://img.shields.io/badge/Launch-App-22C55E?style=for-the-badge&logo=google-chrome&logoColor=white"/> </a> </p>
 
-👉 Try the App Here:
-🔗 https://parking-occupancy-classification-kjlrkgzhpvhuctiqhwecpe.streamlit.app/
+🔗 Direct Link:
+https://parking-occupancy-classification-kjlrkgzhpvhuctiqhwecpe.streamlit.app/
 
-📌 Project Overview
+📖 Overview
 
-This project is an AI-powered web application that classifies parking slots as:
+The Parking Occupancy Classification System is a deep learning–based web application that detects whether a parking slot is:
 
-✅ Empty
+🟢 Empty
 
-🚫 Occupied
+🔴 Occupied
 
-The system uses YOLOv8 deep learning model for image-based parking slot detection and is deployed using Streamlit Cloud for interactive usage.
+The system leverages the YOLOv8 object detection model to analyze uploaded parking images and classify slot occupancy with high accuracy.
 
-🧠 How It Works
+Deployed on Streamlit Cloud, the application provides a fast and interactive web interface for real-time parking slot validation.
 
-Upload a parking slot image
+🎯 Problem Statement
 
-YOLOv8 model processes the image
+Manual monitoring of parking spaces is inefficient and error-prone.
+This system automates parking slot detection using AI, improving:
 
-The system predicts:
+🚦 Traffic flow
 
-Parking Status
+🅿 Parking management
 
-Confidence Score
+⏱ Time efficiency
 
-Result is displayed with a clean Streamlit UI
+📊 Smart infrastructure readiness
 
-🛠️ Tech Stack
-Technology	Purpose
-🐍 Python	Core programming
-🧠 YOLOv8 (Ultralytics)	Object detection model
-🎨 Streamlit	Web UI framework
-📷 OpenCV	Image processing
-☁️ Streamlit Cloud	Deployment
+🧠 System Architecture
+User Upload
+     ↓
+Image Preprocessing (OpenCV)
+     ↓
+YOLOv8 Model Inference
+     ↓
+Classification Output
+     ↓
+Confidence Score Display
+     ↓
+Streamlit UI Rendering
+🛠 Tech Stack
+Layer	Technology Used
+Language	Python
+Deep Learning	YOLOv8 (Ultralytics)
+Image Processing	OpenCV
+UI Framework	Streamlit
+Deployment	Streamlit Cloud
+Version Control	Git + GitHub
 📂 Project Structure
-parking_occupancy_system/
+parking_occupancy_system
 │
 ├── model/
 │   └── best.pt
+│
 ├── test_images/
+│
 ├── app.py
 ├── predict.py
 ├── requirements.txt
 └── runtime.txt
-⚙️ Installation (Local Setup)
+⚙️ Local Setup Guide
+1️⃣ Clone Repository
 git clone https://github.com/alinashaji-12/parking-occupancy-classification.git
 cd parking-occupancy-classification
+2️⃣ Install Dependencies
 pip install -r requirements.txt
+3️⃣ Run Application
 streamlit run app.py
-📊 Features
+✨ Core Features
 
-✔ Modern interactive UI
-✔ Real-time prediction
-✔ Confidence score display
-✔ Cloud deployed
-✔ Lightweight & fast
+✔ AI-based occupancy classification
+✔ Confidence score reporting
+✔ Modern responsive UI
+✔ Cloud deployment
+✔ Lightweight and efficient pipeline
 
-👩‍💻 Contributors
+📊 Model Details
 
-Alina Shaji
+Model: YOLOv8
 
-Hannah
+Framework: Ultralytics
 
-Aman Hooda
+Training Platform: Google Colab
 
-Rishabh
+Annotation Tool: Roboflow
 
-📈 Future Improvements
+Dataset: Custom parking slot dataset
 
-Multi-slot detection
 
-Real-time camera feed support
+⭐ Acknowledgement
 
-Parking analytics dashboard
-
-⭐ If you found this project helpful
-
-Give it a ⭐ on GitHub!
-
-✨ AI Meets Smart Parking ✨
+This project was developed as part of an academic deep learning application focusing on real-world smart infrastructure automation.
